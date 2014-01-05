@@ -1,5 +1,5 @@
 # What is it?
-This is a simple webservice build with [yammer's dropwizard framework](http://www.dropwizard.io/) and is mainly based on @alexeypro's (dropwizard-archetype)[https://github.com/alexeypro/dropwizard-archetype].
+This is a simple webservice build with [yammer's dropwizard framework](http://www.dropwizard.io/) and is mainly based on [@alexeypro's dropwizard-archetype](https://github.com/alexeypro/dropwizard-archetype).
 
 It uses [Twitters own Java-Library](https://github.com/twitter/twitter-text-java)
 to analyze tweets in case you just have the tweet text for whatever reason. 
@@ -8,7 +8,8 @@ Here is how to use it:
 A simple call returns the entities that are extracted through the twitter library. 
 If you need more information about this, consider reading there [docs](https://github.com/twitter/twitter-text-java).
 ```
-curl "http://localhost:8080/tweet/analyze.json" -d "tweet_text=Hey @fancy, have you seen this project at http://github.com/rosner/tweet-analyzer-ws? #diploma #thesis"
+curl "http://localhost:8080/tweet/analyze.json" \
+-d "tweet_text=Hey @fancy, have you seen this project at http://github.com/rosner/tweet-analyzer-ws? #diploma #thesis"
 ```
 
 And here is the simple result:
