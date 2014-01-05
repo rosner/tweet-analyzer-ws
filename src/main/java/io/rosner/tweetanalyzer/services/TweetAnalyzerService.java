@@ -14,7 +14,7 @@ public class TweetAnalyzerService extends Service<TweetAnalyzerConfiguration> {
 
 	@Override
 	public void initialize(Bootstrap<TweetAnalyzerConfiguration> bootstrap) {
-		bootstrap.setName("treetagger-ws");
+		bootstrap.setName("tweet-analyzer-ws");
 	}
 
 	@Override
