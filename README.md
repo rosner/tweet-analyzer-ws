@@ -60,7 +60,7 @@ And here is the simple result:
 }
 ```
 
-# How to build an run this?
+# How to build and run this?
 It's a maven based project, so `mvn package` builds a jar located under `target/twitter-ws-0.0.01-SNAPSHOT.jar` 
 so you can run it with `java -jar target/twitter-ws-0.0.1-SNAPSHOT.jar server`.
 
